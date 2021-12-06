@@ -1,4 +1,6 @@
-export const Layout = ({children}) => {
+import {ReactNode} from "react";
+
+export const Layout = ({children}:{children:ReactNode}) => {
     return (
         <div>
             <header>Global Layout</header>

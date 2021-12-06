@@ -15,6 +15,7 @@ export default function PodcastPage() {
     );
 
     const id = Number(query.id);
+    // @ts-ignore
     const text =  data && data[id]?.text;
 
     return (
